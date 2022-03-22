@@ -1,0 +1,213 @@
+body{
+ font-family: 'Open Sans', sans-serif !important;
+ text-align:center;
+}
+#title{
+    text-align: left;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+.big-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem ;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+a.navbar-brand,a.nav-link{
+    color: #fff;
+}
+.navbar-brand{
+font-family: 'roboto';
+font-weight: bold;
+font-size: 3rem;
+}
+.container-fluid{
+    padding: 7% 15% ;
+    /* top 3% left and rigth 15% bottom 7%*/
+}
+.nav-item{
+    padding: 0 10px;
+}
+.navbar-nav{
+    padding-left: 30rem;
+}
+.nav-link{
+    font-size: 1.2rem ;
+    font-family:sans-serif;
+}
+/* download button */
+.download-button{
+    margin: 0 0 0 10px;
+}
+/* Sections */
+.colored-section{
+    background-color: #ff4c68 ;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/* title section */
+#title .container-fluid{
+    padding: 3% 15% 12%;
+    /* top 3% left and rigth 15% bottom 7%*/
+}
+
+.title-img{
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+   
+}
+/* feature section */
+.color{
+    color: #ff4c68 ;
+    padding: 1rem;  
+}
+.color:hover{
+    color:#b81f36;
+}
+#features{
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+   padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/*  for zindex */
+
+
+/* testimonials */
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+margin: 20px;
+border-radius: 100%;
+width: 10%;
+}
+
+/* press */
+
+#press{
+    
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding: 10px 10px;
+}
+
+/* pricing css */
+.pricing-text{
+    font-size: 3rem;
+    list-style: 1.5;
+}
+#pricing{
+    padding:100px;
+}
+.pricing_col{
+    padding:3% 2%;
+}
+.press-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* call to actio section */
+
+#cta h3{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color :#fff ;
+}
+#cta .mg-btm{
+margin-bottom: 15px;
+}
+/* footer Section*/
+#footer{
+    padding: 5% 7%;
+}
+#footer .ft-icon{
+    color:#000;
+    padding: 0 10px;
+}
+#footer p{
+    margin-top: 10px;
+}
+/* Responsive media Query */
+/* For Small Display */
+@media only  screen and (min-width:300px) and (max-width:500px){
+    #title{
+        background-color:#8f8f8f ;
+        color: #000;
+    }
+    .title-img{
+        width: 15%;
+        transform: rotate(0);
+        position: absolute;
+        right: 20%;
+    }
+
+}
+/* android users */
+@media only  screen and (min-width:500px) and (max-width:800px){
+    #title{
+        background-color:#8f8f4c ;
+        color: #32ed21;
+    }
+    .title-img{
+        width: 20%;
+        transform: rotate(0);
+        position: absolute;
+        right: 20%;
+    }
+}
+/* tablet users */
+@media only  screen and (min-width:800px) and (max-width:1100px){
+    #title{
+        background-color:#8f4f4c ;
+        color: #888;
+    }
+    .title-img{
+        width: 23%;
+        transform: rotate(15deg);
+        position: absolute;
+        right: 20%;
+    }
+}
+/* Desktop users */
+@media only  screen and (min-width:1100px) and (max-width:1400px){
+    /* #title{
+        background-color:#ff4c68;
+        color: #fff;
+    } */
+    .title-img{
+        width: 23%;
+        transform: rotate(25deg);
+        position: absolute;
+        right: 20%;
+    }
+}
